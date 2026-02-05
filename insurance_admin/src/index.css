@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MorganiteBlack';
+  src: local('MorganiteBlack'), url(./fonts/Morganite-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Brotherhood';
+  src: local('Brotherhood'), url(./fonts/Brotherhood.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'NunitoRegular';
+  src: local('NunitoRegular'), url(./fonts/Nunito-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoBold';
+  src: local('NunitoBold'), url(./fonts/Nunito-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoExtraBold';
+  src: local('NunitoExtraBold'), url(./fonts/Nunito-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoBoldItalic';
+  src: local('NunitoBoldItalic'), url(./fonts/Nunito-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoSemibold';
+  src: local('NunitoSemiBold'), url(./fonts/Nunito-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoItalic';
+  src: local('NunitoItalic'), url(./fonts/Nunito-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'InterMedium';
+  src: local('InterMedium'), url(./fonts/Inter-Medium.ttf) format('truetype');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: white;
+  /* Old browsers */
+}
+
+.composer {
+  position: inherit;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  height: 74px;
+  z-index: 10000;
+}

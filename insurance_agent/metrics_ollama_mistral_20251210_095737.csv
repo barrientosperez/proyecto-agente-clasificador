@@ -1,0 +1,2 @@
+timestamp,engine,model,casos,tiempo_api_ms,tiempo_modelo_ms,tiempo_total_ms
+20251210_095737,ollama,mistral,4,487.14,7739.1,8226.74

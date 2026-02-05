@@ -1,0 +1,32 @@
+# ARCHIVOS DE SISTEMA Y GLOBALES
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.log
+
+# FRONT-END (insurance_admin - ReactJS)
+insurance_admin/node_modules/
+insurance_admin/build/
+insurance_admin/dist/
+insurance_admin/.pnp/
+insurance_admin/.pnp.js
+insurance_admin/npm-debug.log*
+insurance_admin/yarn-debug.log*
+insurance_admin/yarn-error.log*
+
+# MICROSERVICIO (insurance_agent - Python)
+# Entornos virtuales
+insurance_agent/venv/
+insurance_agent/env/
+insurance_agent/.venv/
+
+# Python bytecode y caché
+insurance_agent/**/__pycache__/
+insurance_agent/*.py[cod]
+insurance_agent/*$py.class
+
+# Distribución y paquetes
+insurance_agent/dist/
+insurance_agent/build/
+insurance_agent/*.egg-info/

@@ -1,0 +1,2 @@
+timestamp,engine,model,casos,tiempo_api_ms,tiempo_modelo_ms,tiempo_total_ms
+20260204_225759,openai,gpt-5.1,1,535.57,2488.27,3023.95
