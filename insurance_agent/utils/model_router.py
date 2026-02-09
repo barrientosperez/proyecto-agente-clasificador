@@ -40,7 +40,7 @@ def analyze_with_openai(prompt: str, model: str) -> str:
 def analyze_with_gemini(prompt: str, model: str) -> str:
     from google import genai
     
-    client = genai.Client(api_key="AIzaSyCoTJ3jsIi3CZTJ2sE89AGkJbBhKDZsEZA")
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
     response = client.models.generate_content(
         model=model,

@@ -1,0 +1,2 @@
+timestamp,engine,model,casos,tiempo_api_ms,tiempo_modelo_ms,tiempo_total_ms
+20260205_145959,gemini,gemini-2.5-flash,9,1037.98,16838.35,17877.52
